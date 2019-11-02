@@ -9,3 +9,6 @@ else if (notaAlumne < 9 && notaAlumne >= 6) {
 else {
     alert(`El examen no está aprobado`)
 }
+
+//si hay un solo resultado, se pueden omitir las llaves 
+// if (notaAlumne >= 9) alert(`La nota es Excelente`);
